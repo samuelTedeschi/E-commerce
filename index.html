@@ -51,7 +51,7 @@
                             <a class="nav-link text-white" href="login.html">Entrar</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link text-white">
+                            <a href="" class="nav-link text-white" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
                                 <svg class="bi" width="24" height="24" fill="currentColor">
                                     <use xlink:href="/bi.svg#cart3"></use>
                                 </svg>
@@ -63,6 +63,30 @@
             </div>
         </div>
     </nav>
+
+    <!--off canvas para o carrinho-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrinho</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+
+        <div class="card text-center bg-light col-md-9">
+          <img src="./img/produtos/ca-creative-3arVuELrg7o-unsplash.jpg" class="card-img-top">
+          <div class="card-header">
+            $200,00
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Tenis</h5>
+            <p class="card-text">Tenis lançamento</p>
+          </div>
+        </div>
+        <hr>
+        <input type="button" value="Finalizar compra" class="btn btn-dark">
+      </div>
+    </div>
 
     <!--Slide-->
     <header class="container">
@@ -316,9 +340,8 @@
                 <div class="col-12 col-md-4 text-center text-md-left">
                     <a href="" class="text-decoration-none text-dark">Formas de Pagamento</a>
                     <hr>
-                    <p>.\</p>
-                    <p>.\</p>
-                    <p>.\</p>
+                    <p>Cartao</p>
+                    <p>Boleto</p>
                 </div>
             </div>
         </div>

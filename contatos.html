@@ -64,11 +64,46 @@
     </nav>
 
     <main class="mb-5 pb-5 mb-md-0">
-       
-      
+        <div class="container">
+
+            <form action="">
+
+                <h2 class="text-center mb-3">Fale com agente</h2>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control " id="floatingInput" placeholder="nome">
+                    <label for="floatingInput">Seu nome completo</label>
+                </div>
+
+                <div class="row g-2 mb-3">
+                    <div class="col-md-6 ">
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com">
+                        <label for="floatingInputGrid">Seu email:</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md">
+                      <div class="form-floating">
+                        <select class="form-select" id="floatingSelectGrid">
+                          <option selected>Devoluçao</option>
+                          <option value="1">Forma de pagamento</option>
+                          <option value="2">Produto</option>
+                          <option value="3">outros</option>
+                        </select>
+                        <label for="floatingSelectGrid">Assunto:</label>
+                      </div>
+                    </div>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Deixe seu Comentario:</label>
+                </div>
+            </form>
+        </div>
     </main>
     
-    <footer class="border-top  text-muted bg-light">
+    <footer class="border-top text-muted bg-light">
         <div class="container">
             <div class="row py-3">
                 <div class="col-12 col-md-4 text-center text-md-left">
@@ -88,9 +123,9 @@
                 <div class="col-12 col-md-4 text-center text-md-left">
                     <a href="" class="text-decoration-none text-dark">Formas de Pagamento</a>
                     <hr>
-                    <p>.\</p>
-                    <p>.\</p>
-                    <p>.\</p>
+                    <p>Cartao</p>
+                    <p>Boleto</p>
+                    
                 </div>
             </div>
         </div>
